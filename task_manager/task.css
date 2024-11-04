@@ -1,0 +1,92 @@
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+body {
+    font-family: cursive;
+    color:#3d223d;
+    
+    animation: fadeInUp 1s ease-in-out;
+    background-image: url(taskbg.png);
+}
+.task-container {
+    position:absolute;
+    top:40px;
+    left:450px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(85, 23, 82, 0.945);
+    width: 350px;
+    text-align: center;
+    animation: fadeInUp 1.5s ease-in-out;
+}
+.task-container h2 {
+    font-variant: small-caps;
+    font-style: italic;
+    font-size: 28px;
+    color: #3d223d;
+    margin-bottom: 20px;
+}
+.task-container input,
+.task-container select,
+.task-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+.task-container input:focus,
+.task-container select:focus,
+.task-container textarea:focus {
+    border-color: #4d1b46;
+}
+
+.task-container button {
+    background-color: #402e44;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.task-container button:hover {
+    background-color: white;
+    color:#3d223d;
+    transform: scale(1.05);
+}
+a {
+    position:absolute;
+    margin-top: 20px;
+    text-align: center;
+    color: #512c5c;
+    text-decoration: underline;
+    bottom:30px;
+    left:595px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:rgb(21, 124, 18);
+}
+.update{
+    position:absolute;
+    margin-top: 20px;
+    text-align: center;
+    color: #512c5c;
+    text-decoration: underline;
+    bottom:5px;
+    left:595px;
+}

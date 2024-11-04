@@ -1,0 +1,88 @@
+body{
+    background-image: url(account.jpg);
+    background-position: top left;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* account_update.css */
+
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(108, 29, 116, 0.911);
+    max-width: 400px;
+    width: 100%;
+    position:absolute;
+    right:450px;
+    top:100px;
+}
+
+
+h2 {
+    text-align: center;
+    color: #402442;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #46314b;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f0f2f3;
+    color:#402442
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+.success {
+    color: green;
+    text-align: center;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #512c5c;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:rgb(21, 124, 18);
+}
